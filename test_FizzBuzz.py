@@ -39,6 +39,26 @@ class test_FizzBuzz(unittest.TestCase):
 		result = FizzBuzz.SingleNumber(78)
 		self.assertEqual(result, "Fizz")
 
+	def test_FizzBuzzValidBuzz(self):
+
+
+		result = FizzBuzz.SingleNumber(5)
+		self.assertEqual(result, "Buzz")
+		
+		
+		result = FizzBuzz.SingleNumber(10)
+		self.assertEqual(result, "Buzz")
+		
+		result = FizzBuzz.SingleNumber(85)
+		self.assertEqual(result, "Buzz")
+		
+		result = FizzBuzz.SingleNumber(25)
+		self.assertEqual(result, "Buzz")
+
+		result = FizzBuzz.SingleNumber(50)
+		self.assertEqual(result, "Buzz")
+		
+
 
 if __name__ == "__main__":
         unittest.main()
