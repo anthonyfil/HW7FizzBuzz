@@ -21,6 +21,23 @@ class test_FizzBuzz(unittest.TestCase):
 
 		result = FizzBuzz.SingleNumber(79)
 		self.assertEqual(result, 79)
+	def test_FizzBuzzValidFizz(self):
+                #Testing NumbersDivby3
+		result = FizzBuzz.SingleNumber(3)
+		self.assertEqual(result, "Fizz")
+		
+		
+		result = FizzBuzz.SingleNumber(6)
+		self.assertEqual(result, "Fizz")
+		
+		result = FizzBuzz.SingleNumber(9)
+		self.assertEqual(result, "Fizz")
+		
+		result = FizzBuzz.SingleNumber(36)
+		self.assertEqual(result, "Fizz")
+
+		result = FizzBuzz.SingleNumber(78)
+		self.assertEqual(result, "Fizz")
 
 
 if __name__ == "__main__":
