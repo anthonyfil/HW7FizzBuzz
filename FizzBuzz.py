@@ -1,3 +1,3 @@
 def SingleNumber(x):
-    return 0
+    return x
     
