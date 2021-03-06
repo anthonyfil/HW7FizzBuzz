@@ -6,4 +6,6 @@ def SingleNumber(x):
     if((x/5.0) == round(x/5.0)):
         return "Buzz"
     return x
+def Print100():
+    return ""
     
