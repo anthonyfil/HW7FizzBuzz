@@ -7,5 +7,10 @@ def SingleNumber(x):
         return "Buzz"
     return x
 def Print100():
-    return ""
+    s = ""
+    for i in range(1,101):
+           s = s + str(SingleNumber(i)) + "\n"
+        
+        
+    return s
     
